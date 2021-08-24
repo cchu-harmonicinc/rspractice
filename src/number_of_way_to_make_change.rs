@@ -1,5 +1,4 @@
-use std::vec;
-
+#[cfg(test)]
 pub fn solution(target: u32, denoms: Vec<u32>) -> u32 {
     // create a table of size target+1
     // return the result which store in the table[target]
