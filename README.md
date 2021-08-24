@@ -1,2 +1,2 @@
 # rspractice
-practice code interview using rust
+practice coding interview question using rust
