@@ -2,7 +2,7 @@
 pub fn solution(target: u32, denoms: Vec<u32>) -> u32 {
     // create a table of size target+1
     // return the result which store in the table[target]
-    let mut table= vec![0; (target as usize) + 1];
+    let mut table = vec![0; (target as usize) + 1];
     // initializing the base cases
     table[0] = 1;
     // construct the dp table iteratively
